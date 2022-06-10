@@ -1,0 +1,26 @@
+<div class="container">
+    <div class="content-wrapper">
+        <div class="title">
+            {{blogService.blogData[blogIndex].title}}
+        </div>
+            <div class="content" [innerText]="blogService.blogData[blogIndex].content">
+
+            </div>
+            <div class="author">written by {{blogService.blogData[blogIndex].author}}</div>
+            <div class="comments">
+                <span *ngFor="let comment of blogService.blogData[blogIndex].comments" class="comment">
+                    <span class="uname">{{comment.username}}:<span class="com">{{comment.comment}}</span>
+                </span></span>
+                <mat-form-field>
+                    <mat-label>Username</mat-label>
+                    <input [(ngModel)]="username" matInput>
+                </mat-form-field>
+                <mat-form-field>
+                    <mat-label>comment</mat-label>
+                    <input [(ngModel)]="comment" matInput>
+                </mat-form-field>
+                <button mat-button class="comment-button" (click)="addcomment()">comment</button>
+            </div>
+     </div>
+</div>
+

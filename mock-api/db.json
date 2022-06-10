@@ -1,0 +1,64 @@
+{
+  "blogs": [
+    {
+      "author": "dev",
+      "title": "cars",
+      "content": "asdasdasdasdasdasd",
+      "comments": [
+        {
+          "username": "dev",
+          "comment": "adasd"
+        },
+        {
+          "username": "sfd",
+          "comment": "sdf"
+        },
+        {
+          "username": "apple",
+          "comment": "asdasd"
+        }
+      ],
+      "id": 1
+    },
+    {
+      "author": "charan",
+      "title": "phones are the threat",
+      "content": "kahjsdkjasldlaksdl;aksd;km",
+      "comments": [],
+      "id": 2
+    },
+    {
+      "author": "puspita@123",
+      "title": "asdasd",
+      "content": "asdasd",
+      "comments": [],
+      "id": 3
+    },
+    {
+      "author": "debsona",
+      "title": "supersonic speed",
+      "content": "<p class=\"pw-post-body-paragraph lj lk ji ll b lm ln kj lo lp lq km lr ls lt lu lv lw lx ly lz ma mb mc md me jb gc\">Concorde&#8217;s iconic droop nose. NASA&#8217;s X-59 eXternal Visibility Display. Boom&#8217;s XB-1 Forward Looking Vision System. Throughout the years, we&#8217;ve seen a variety of solutions aimed at solving one of supersonic&#8217;s biggest design challenges: visualization of the runway.</p><p class=\"pw-post-body-paragraph lj lk ji ll b lm ln kj lo lp lq km lr ls lt lu lv lw lx ly lz ma mb mc md me jb gc\">Creating an aircraft design to maximize pilot visibility is a unique challenge to supersonic because of its association with aerodynamic performance. The longer the fuselage and more swept the wing, the higher the angle of attack and less visibility is granted out the forward window during landing. As a result, locking a design that considers the descent as much as high-speed cruise can feel like a tradeoff. But thanks to new technology, companies like Boom disagree.</p>",
+      "comments": [
+        {
+          "username": "deb",
+          "comment": "beautifull"
+        }
+      ],
+      "id": 4
+    },
+    {
+      "author": "debsona@hh",
+      "title": "asdasd",
+      "content": "asdadas",
+      "comments": [],
+      "id": 5
+    },
+    {
+      "author": "deb",
+      "title": "JSON",
+      "content": "<b>JSON</b><span>&#160;(JavaScript Object Notation) is a lightweight data-interchange format. It is easy for humans to read and write. It is easy for machines to parse and generate. It is based on a subset of the JavaScript Programming Language Standard ECMA-262 3rd Edition - December 1999. JSON is a text format that is completely language independent but uses conventions that are familiar to programmers of the C-family of languages, including C, C++, C#, Java, JavaScript, Perl, Python, and many others. These properties make JSON an ideal data-interchange language.</span>",
+      "comments": [],
+      "id": 6
+    }
+  ]
+}
